@@ -41,7 +41,8 @@ const SCREENING_STEPS = [
   "Severity / गंभीरता",
 ];
 
-const BACKEND_URL = "http://localhost:8082";
+// const BACKEND_URL = "http://localhost:8082";
+const BACKEND_URL ="https://ai-health-assistent.onrender.com";
 
 export const VoiceCall: React.FC = () => {
   const [isCalling, setIsCalling] = useState(false);
@@ -349,7 +350,8 @@ export const VoiceCall: React.FC = () => {
 
     isCallActiveRef.current = true;
 
-    const ws = new WebSocket("ws://localhost:8082");
+    // const ws = new WebSocket("ws://localhost:8082");
+    const ws = new WebSocket("wss://https://ai-health-assistent.onrender.com");
     wsRef.current = ws;
 
     ws.onopen = () => {
