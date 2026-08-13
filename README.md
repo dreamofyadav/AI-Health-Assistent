@@ -28,7 +28,7 @@ An interactive, real-time, bilingual (English & Hindi) voice-powered medical int
 - **HTTP & WebSockets**: Express, Node `http`, `ws`
 - **Text-To-Speech**: `gtts` (Google Text-to-Speech)
 - **AI Engine**: Groq SDK (`llama-3.3-70b-versatile`)
-**Language**: TypeScript (End-to-End Type Safety across Client & Server)
+- **Language**: TypeScript (End-to-End Type Safety across Client & Server)
 ---
 
 ## System Architecture & Protocol
