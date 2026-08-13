@@ -351,7 +351,7 @@ export const VoiceCall: React.FC = () => {
     isCallActiveRef.current = true;
 
     // const ws = new WebSocket("ws://localhost:8082");
-    const ws = new WebSocket("wss://https://ai-health-assistent.onrender.com");
+    const ws = new WebSocket("wss://ai-health-assistent.onrender.com");
     wsRef.current = ws;
 
     ws.onopen = () => {
