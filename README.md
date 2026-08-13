@@ -9,7 +9,7 @@ An interactive, real-time, bilingual (English & Hindi) voice-powered medical int
 - **Bilingual Support (English & Hindi)**: Supports seamless conversation in both English and Hindi. Automatically renders Hindi in Devanagari script for accurate speech synthesis.
 - **Voice-First Hands-Free Interface**: Uses browser Web Speech API for real-time Speech Recognition and a backend gTTS streaming endpoint for audio synthesis.
 - **Barge-In / Real-Time Interruption**: Allows users to interrupt the AI while it is speaking. The system immediately stops audio playback and cancels pending LLM tasks.
-- **Silence Detection & Auto-Disconnect**: Monitors user responsiveness with a 10-second timer. Automatically prompts the user when silent and safely ends the call after 3 consecutive unanswered prompts.
+- **Silence Detection & Auto-Disconnect**: Monitors user responsiveness with a 10-second timer. Automatically prompts the user when silent and safely ends the call after 5 consecutive unanswered prompts.
 - **Live Transcript & Scroll-Locked UI**: Keeps conversation history neatly formatted inside a scrollable view without disrupting the application dashboard layout.
 - **Automated Health Screening Report**: Summarizes patient details, main complaints, duration, severity scale, and suggested next steps into a structured report once the call ends.
 
